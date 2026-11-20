@@ -9,7 +9,10 @@
     
     <link rel="icon" type="image/png" href="assets/Estrella.png"> 
     
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+    
+    <!-- iconos de lenguajes -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.16.0/devicon.min.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
     
@@ -42,6 +45,7 @@
                 </p>
                 <div class="botones">
                     <a href="#proyectos" class="boton-primario">Ver proyectos →</a>
+                    <a href="assets/CV_Yeferson_Najar.pdf" class="boton-secundario" download="CV_Yeferson_Najar.pdf"><i class="fa-solid fa-download" aria-hidden="true"></i> Descargar hoja de vida</a>
                 </div>
                 
                 <nav class="redes-sociales" aria-label="Redes sociales">
@@ -79,7 +83,7 @@
                     <div class="cuadricula-info">
                         <article class="tarjeta revelar-scroll">
                             <div class="titulo-tarjeta">
-                                <img src="assets/Logo_1.png" alt="" aria-hidden="true">
+                                <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
                                 <h4>Educación</h4>
                             </div>
                             <p class="lugar">Tecnólogo en Análisis y Desarrollo de Software</p>
@@ -88,14 +92,14 @@
                         </article>
                         <article class="tarjeta revelar-scroll">
                             <div class="titulo-tarjeta">
-                                <img src="assets/Logo_2.png" alt="" aria-hidden="true">
+                                <i class="fa-solid fa-futbol" aria-hidden="true"></i>
                                 <h4>Hobbies</h4>
                             </div>
                             <p class="lugar">Me gusta jugar fútbol, voleibol y disfrutar de videojuegos.</p>
                         </article>
                         <article class="tarjeta revelar-scroll">
                             <div class="titulo-tarjeta">
-                                <img src="assets/Logo_3.png" alt="" aria-hidden="true">
+                                <i class="fa-solid fa-house-chimney" aria-hidden="true"></i>
                                 <h4>Sueños y Objetivos</h4>
                             </div>
                             <p class="lugar">Mi sueño es tener una casa propia y desarrollarme profesionalmente.</p>
@@ -119,11 +123,38 @@
             </article>
             <article class="proyecto invertido revelar-scroll">
                 <div class="imagen-proyecto">
-                    <img src="assets/Paguina_noticias.png" alt="Captura de página web de noticias" loading="lazy">
+                    <img src="assets/pagina_xchango.png" alt="Captura de la página de Xchango" loading="lazy">
                 </div>
                 <div class="info-proyecto">
-                    <h3>Página web de noticias</h3>
-                    <p>Prototipo de página de noticias para practicar el flujo de Git y GitHub.</p>
+                    <h3>Xchango</h3>
+                    <p>Plataforma web para intercambiar productos. Trabajé en equipo el frontend con Angular, las APIs con Go (Beego) y Django, y la base de datos en PostgreSQL usando ramas en Git.</p>
+                </div>
+            </article>
+            <article class="proyecto revelar-scroll">
+                <div class="imagen-proyecto">
+                    <img src="assets/pagina_asistia.png" alt="Captura del panel de AsistIA" loading="lazy">
+                </div>
+                <div class="info-proyecto">
+                    <h3>AsistIA</h3>
+                    <p>Sistema de asistencia para el Sena con reconocimiento facial en Python, un servidor en NestJS y un bot de Telegram que avisa la asistencia de los aprendices.</p>
+                </div>
+            </article>
+            <article class="proyecto invertido revelar-scroll">
+                <div class="imagen-proyecto">
+                    <img src="assets/pagina_sava.png" alt="Captura de la app Sava" loading="lazy">
+                </div>
+                <div class="info-proyecto">
+                    <h3>Sava</h3>
+                    <p>App móvil para el campo de Casanare que conecta campesinos, tiendas agropecuarias y compradores. Hecha con React Native, TypeScript y Supabase, y funciona sin internet.</p>
+                </div>
+            </article>
+            <article class="proyecto revelar-scroll">
+                <div class="imagen-proyecto">
+                    <img src="assets/pagina_panaderia.png" alt="Captura del sistema de la Panadería Rico Pan de Samuelito" loading="lazy">
+                </div>
+                <div class="info-proyecto">
+                    <h3>Panadería Rico Pan de Samuelito</h3>
+                    <p>Sistema web para una panadería hecho en Django: registro de ventas, producción, productos, inventario, compras, gastos y caja, e informes.</p>
                 </div>
             </article>
         </section>
@@ -141,7 +172,7 @@
                 </div>
                 
                 <div class="habilidad-item">
-                    <div class="icono"><i class="fa-brands fa-html5" aria-hidden="true"></i></div>
+                    <div class="icono"><i class="devicon-html5-plain colored" aria-hidden="true"></i></div>
                     <div class="barra-contenedor">
                         <div class="encabezado-barra">
                             <span class="nombre-tec">HTML <span>(Estructura)</span></span>
@@ -154,7 +185,7 @@
                 </div>
 
                 <div class="habilidad-item">
-                    <div class="icono"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i></div>
+                    <div class="icono"><i class="devicon-css3-plain colored" aria-hidden="true"></i></div>
                     <div class="barra-contenedor">
                         <div class="encabezado-barra">
                             <span class="nombre-tec">CSS <span>(Diseño)</span></span>
@@ -167,7 +198,7 @@
                 </div>
 
                 <div class="habilidad-item">
-                    <div class="icono"><i class="fa-brands fa-github" aria-hidden="true"></i></div>
+                    <div class="icono"><i class="devicon-github-original" aria-hidden="true"></i></div>
                     <div class="barra-contenedor">
                         <div class="encabezado-barra">
                             <span class="nombre-tec">GitHub <span>(Versiones)</span></span>
@@ -175,6 +206,97 @@
                         </div>
                         <div class="barra-fondo">
                             <div class="barra-relleno" style="width: 69%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidad-item">
+                    <div class="icono"><i class="devicon-typescript-plain colored" aria-hidden="true"></i></div>
+                    <div class="barra-contenedor">
+                        <div class="encabezado-barra">
+                            <span class="nombre-tec">JavaScript / TypeScript <span>(Lógica)</span></span>
+                            <span class="porcentaje">70%</span>
+                        </div>
+                        <div class="barra-fondo">
+                            <div class="barra-relleno" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidad-item">
+                    <div class="icono"><i class="devicon-angularjs-plain colored" aria-hidden="true"></i></div>
+                    <div class="barra-contenedor">
+                        <div class="encabezado-barra">
+                            <span class="nombre-tec">Angular <span>(Frontend)</span></span>
+                            <span class="porcentaje">65%</span>
+                        </div>
+                        <div class="barra-fondo">
+                            <div class="barra-relleno" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidad-item">
+                    <div class="icono"><i class="devicon-react-original colored" aria-hidden="true"></i></div>
+                    <div class="barra-contenedor">
+                        <div class="encabezado-barra">
+                            <span class="nombre-tec">React Native <span>(Móvil)</span></span>
+                            <span class="porcentaje">60%</span>
+                        </div>
+                        <div class="barra-fondo">
+                            <div class="barra-relleno" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidad-item">
+                    <div class="icono"><i class="devicon-go-original-wordmark colored" aria-hidden="true"></i></div>
+                    <div class="barra-contenedor">
+                        <div class="encabezado-barra">
+                            <span class="nombre-tec">Go <span>(APIs con Beego)</span></span>
+                            <span class="porcentaje">65%</span>
+                        </div>
+                        <div class="barra-fondo">
+                            <div class="barra-relleno" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidad-item">
+                    <div class="icono"><i class="devicon-django-plain" aria-hidden="true"></i></div>
+                    <div class="barra-contenedor">
+                        <div class="encabezado-barra">
+                            <span class="nombre-tec">Python / Django <span>(Backend)</span></span>
+                            <span class="porcentaje">60%</span>
+                        </div>
+                        <div class="barra-fondo">
+                            <div class="barra-relleno" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidad-item">
+                    <div class="icono"><i class="devicon-nestjs-original colored" aria-hidden="true"></i></div>
+                    <div class="barra-contenedor">
+                        <div class="encabezado-barra">
+                            <span class="nombre-tec">NestJS <span>(Servidor)</span></span>
+                            <span class="porcentaje">55%</span>
+                        </div>
+                        <div class="barra-fondo">
+                            <div class="barra-relleno" style="width: 55%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="habilidad-item">
+                    <div class="icono"><i class="devicon-postgresql-plain colored" aria-hidden="true"></i></div>
+                    <div class="barra-contenedor">
+                        <div class="encabezado-barra">
+                            <span class="nombre-tec">PostgreSQL <span>(Base de datos)</span></span>
+                            <span class="porcentaje">60%</span>
+                        </div>
+                        <div class="barra-fondo">
+                            <div class="barra-relleno" style="width: 60%;"></div>
                         </div>
                     </div>
                 </div>
@@ -227,6 +349,7 @@
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#sobre-mi">Acerca de</a></li>
                     <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
@@ -269,6 +392,22 @@
                 nav.classList.remove('scrolled');
             }
         });
+
+        // 3. ESQUELETO DE CARGA:
+        // Mientras la captura del proyecto no ha cargado se muestra el bloque que brilla
+        const imagenesProyectos = document.querySelectorAll('.imagen-proyecto img');
+        for (let i = 0; i < imagenesProyectos.length; i++) {
+            const imagen = imagenesProyectos[i];
+            if (!imagen.complete) {
+                imagen.parentElement.classList.add('cargando');
+                imagen.addEventListener('load', function () {
+                    imagen.parentElement.classList.remove('cargando');
+                });
+                imagen.addEventListener('error', function () {
+                    imagen.parentElement.classList.remove('cargando');
+                });
+            }
+        }
     </script>
 </body>
 </html>
